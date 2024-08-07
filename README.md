@@ -16,11 +16,8 @@ The designs were created to the following widths:
 - brightOrange: #E28625;
 - darkCyan: #006971;
 - veryDarkCyan: #004140;
-
-### Neutral
-
-Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
-Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+- veryLightGray: #F2F2F2;
+- transparentWhite: #FFFFFF;
 
 ### Typography
 

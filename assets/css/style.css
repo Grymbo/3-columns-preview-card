@@ -24,7 +24,7 @@ html {
 }
 body {
     font-family: var(--typoPrimary);
-    font-size: 1.6rem;
+    font-size: 1.6rem;background-color: var(--transparentWhite);
 }
 h2 {
     font-family: var(--typoSecundary);
@@ -35,5 +35,18 @@ h2 {
 p {
     font-size: 1.5rem;
     line-height: 2.5rem;
+}
+
+/********************************* Utilidades ****************************************/
+.card {
+    margin: 3rem auto;
+    border-radius: 0.8rem;
+}
+@media (min-width: 1200px){
+    .card {
+        max-width: 120rem;
+        width: 90%;
+        margin: auto;
+    }
 }
 
