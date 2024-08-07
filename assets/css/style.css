@@ -24,7 +24,8 @@ html {
 }
 body {
     font-family: var(--typoPrimary);
-    font-size: 1.6rem;background-color: var(--transparentWhite);
+    font-size: 1.6rem;
+    /*background-color: var(--transparentWhite);*/
 }
 h2 {
     font-family: var(--typoSecundary);
@@ -39,8 +40,8 @@ p {
 
 /********************************* Utilidades ****************************************/
 .card {
-    margin: 3rem auto;
-    border-radius: 0.8rem;
+    margin: 3rem 2rem;
+    
 }
 @media (min-width: 1200px){
     .card {
@@ -48,5 +49,25 @@ p {
         width: 90%;
         margin: auto;
     }
+}
+
+/*************************************** Cars *******************************************/
+.cars {
+    color: var(--veryLightGray);
+    padding: 3rem;
+}
+/*********************************** Sedan *******************************************/
+.orange {
+    background-color: var(--brightOrange);
+    border-radius: 0.8rem 0.8rem 0 0;
+}
+/******************************* SUVs ********************************************/
+.green {
+    background-color: var(--darkCyan);
+}
+/******************************** Luxury ********************************************/
+.dark_green {
+    background-color: var(--veryDarkCyan);
+    border-radius: 0 0 0.8rem 0.8rem;
 }
 
