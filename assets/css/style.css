@@ -4,8 +4,34 @@
     --brightOrange: #E28625;
     --darkCyan: #006971;
     --veryDarkCyan: #004140;
+
     /****** Typography *******/
     --typoPrimary: "Lexend Deca", sans-serif;
     --typoSecundary: "Big Shoulders Display", sans-serif;
+}
+
+/********************************** Globals *************************************/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: var(--typoPrimary);
+    font-size: 1.6rem;
+}
+h2 {
+    font-family: var(--typoSecundary);
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.78rem;
+}
+p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
 }
 
