@@ -61,13 +61,34 @@ p {
     background-color: var(--brightOrange);
     border-radius: 0.8rem 0.8rem 0 0;
 }
+.orange button {
+    color: var(--brightOrange);
+}
 /******************************* SUVs ********************************************/
 .green {
     background-color: var(--darkCyan);
+}
+.green button {
+    color: var(--darkCyan);
 }
 /******************************** Luxury ********************************************/
 .dark_green {
     background-color: var(--veryDarkCyan);
     border-radius: 0 0 0.8rem 0.8rem;
 }
+.dark_green button {
+    color: var(--veryDarkCyan);
+}
+/***************************** Button ********************************************/
+.cars button {
+    width: 14.6rem;
+    height: 4.8rem;
+    border-radius: 2rem;
+    border: var(--transparentWhite) solid 1px;
+}
+.cars button:hover {
+    background-color: transparent;
+    color: var(--transparentWhite);
+}
+
 
