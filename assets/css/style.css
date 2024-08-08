@@ -47,7 +47,9 @@ p {
     .card {
         max-width: 120rem;
         width: 90%;
-        margin: auto;
+        margin: 22.5rem auto;
+        height: 50rem;
+        display: flex;
     }
 }
 
@@ -56,10 +58,21 @@ p {
     color: var(--veryLightGray);
     padding: 3rem;
 }
+@media (min-width: 1200px){
+    .cars {
+        display: grid;
+    row-gap: 1rem;
+    }
+}
 /*********************************** Sedan *******************************************/
 .orange {
     background-color: var(--brightOrange);
     border-radius: 0.8rem 0.8rem 0 0;
+}
+@media (min-width: 1200px){
+    .orange {
+        border-radius: 0.8rem 0 0 0.8rem;
+    }
 }
 .orange button {
     color: var(--brightOrange);
@@ -75,6 +88,11 @@ p {
 .dark_green {
     background-color: var(--veryDarkCyan);
     border-radius: 0 0 0.8rem 0.8rem;
+}
+@media (min-width: 1200px){
+    .dark_green {
+        border-radius: 0 0.8rem 0.8rem 0;
+    }
 }
 .dark_green button {
     color: var(--veryDarkCyan);
